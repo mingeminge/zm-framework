@@ -1,0 +1,10 @@
+sftp:
+  protocol: sftp
+  host: 47.104.20.179
+  port: 22
+  username: sftpuser
+  password: 12345678
+  root: /data/sftp/upload/
+  sessionStrictHostKeyChecking: no
+  sessionConnectTimeout: 15000
+  channelConnectedTimeout: 15000
