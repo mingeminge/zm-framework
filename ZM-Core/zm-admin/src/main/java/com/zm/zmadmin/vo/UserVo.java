@@ -1,27 +1,22 @@
-package com.zm.zmadmin.dto;
+package com.zm.zmadmin.vo;
 
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.List;
 
 /**
- * ==================================
+ * ==========================
  *
- * @author yizuomin
- * @description:
- * @date 2020/4/26 14:51
- * ==================================
- **/
+ * @author : yizuomin
+ * @date : Created in 20:54 2020/4/26
+ * ===========================
+ */
 @Data
-public class UserDto implements Serializable {
-
+public class UserVo implements Serializable {
 
     private Long id;
 
     private String username;
-
-    private String password;
 
     private String phone;
 
@@ -38,7 +33,5 @@ public class UserDto implements Serializable {
     private Long deptId;
 
     private Integer status;
-
-    private List<Long> roleIds;
 
 }
