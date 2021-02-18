@@ -32,7 +32,7 @@
         <easyexcel.version>2.2.2</easyexcel.version>
         <easy-captcha.version>1.6.2</easy-captcha.version>
         <mysql.version>8.0.18</mysql.version>
-        <jackson-databind.version>2.10.1</jackson-databind.version>
+        <jackson-databind.version>2.10.5.1</jackson-databind.version>
         <shiro-redis.version>3.1.0</shiro-redis.version>
     </properties>
     <dependencies>
